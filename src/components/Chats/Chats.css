@@ -1,0 +1,64 @@
+.chatsMain {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: calc(100vh - 92px);
+    gap: 24px;
+    align-items: left;
+    justify-content: left;
+    padding: 40px 15px 0 15px;
+}
+
+.chatsTitle {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38.4px;
+    text-align: left;
+    color: #4B2D10;
+}
+
+.chatsEmptyColumn {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    width: 100%;
+    height: calc(100vh - 193px);
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.chatsEmptyImage {
+    width: 272.42px;
+    height: 407.62px;
+}
+
+.chatsEmptyText {
+    color: #8E3B00;
+    font-size: 19.27px;
+    font-weight: 700;
+    line-height: 23.12px;
+    text-align: left;
+    user-select: none;
+}
+
+.chatsEmptyTextBlock {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.chatsEmptyTextBlock p {
+    width: 150px;
+    position: absolute;
+    top: 45%;
+    transform: translateY(-50%);
+}
+
+.chatsColumnItems {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 100%;
+}

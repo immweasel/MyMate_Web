@@ -1,0 +1,172 @@
+.adMain {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 27px;
+}
+
+.adContent {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 24px;
+    align-items: center;
+    justify-content: center;
+    padding: 0 0 120px 0;
+}
+
+.adSlider {
+    width: 100%;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.adDataColumn {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    width: 100%;
+    padding: 0 16px;
+}
+
+.adDataLine {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.adDataTitle {
+    font-family: Alegreya Sans;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38.4px;
+    text-align: left;
+    color: #4B2D10;
+    width: calc(100% - 44px);
+}
+
+.adDataButtonChat {
+    width: 100%;
+    height: auto;
+    padding: 8px 99px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Alegreya Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 16px;
+    text-align: left;
+    color: #FFF4D9;
+    background: #FF6B00;
+    border: none;
+    height: 36px;
+}
+
+.adDataLilColumn {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 100%;
+    align-items: left;
+    justify-content: left;
+}
+
+.adDataSubtitle {
+    font-family: Alegreya Sans;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 19.2px;
+    text-align: left;
+    color: #8E3B00;
+}
+
+.adDataText {
+    font-family: Alegreya Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+    text-align: left;
+    color: #4B2D10;
+}
+
+.adDataLilLine {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    width: 100%;
+    align-items: left;
+    justify-content: left;
+}
+
+.adDataTextBig {
+    font-family: Alegreya Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 19.2px;
+    text-align: left;
+    color: #4B2D10;
+}
+
+.adDataBigLine {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.adDataSummBlock {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: left;
+    justify-content: space-between;
+    border: solid 1px #B48100;
+    padding: 7px 12px 8px 6px;
+    border-radius: 8px;
+    min-width: 118px;
+}
+
+.adDataSummText {
+    font-family: Alegreya Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 100%;
+    text-align: left;
+    color: #4B2D10;
+}
+
+.adDataBoxAds {
+    width: 100%;
+    overflow: auto;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+}
+
+.adDataBoxAds::-webkit-scrollbar {
+    display: none;
+}
+
+.adDataLineAds {
+    width: max-content;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+.adBackHeader {
+    width: 100%;
+    height: 108px;
+    border-radius: 0 0 24px 24px;
+    background: #FF6B00;
+    display: flex;
+    flex-direction: row;
+    padding: 54px 16px 0 21px;
+    align-items: center;
+    justify-content: space-between;
+}

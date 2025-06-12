@@ -1,0 +1,265 @@
+.mainLogin {
+    position: relative;
+    max-width: 1280px;
+    height: calc(100% - 64px);
+    margin: 64px auto 0 auto;
+    padding: 0 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contentLogin {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-bottom: 45px;
+}
+
+.imgLogoLogin {
+    width: 100%;
+}
+
+.formLogin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFF4D9;
+    border-radius: 16px;
+    padding: 20px 34px;
+}
+
+.formLogin h2 {
+    color: #4B2D10;
+    font-weight: 500;
+    font-size: 32px;
+    margin-bottom: 48px;
+}
+
+.fieldsFormLog {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 38px;
+    margin-bottom: 22px;
+}
+
+.contInputField {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.inputFormLog {
+    position: relative;
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-family: Alegreya Sans;
+    color: #4B2D10;
+    font-size: 20px;
+    appearance: none;
+    border-bottom: 1px #B48100 solid;
+    padding-right: 27px;
+}
+
+.inputFormLog::placeholder {
+    color: #4B2D10;
+}
+
+.iconCheck {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+}
+
+.rememberBlock {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #4B2D10;
+    font-size: 14px;
+    /* line-height: 100%; */
+    margin-bottom: 38px;
+}
+
+.checkboxLabel {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 11px;
+}
+
+.checkboxInput {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.checkboxCustom {
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    border: 1.5px solid #B48100;
+    border-radius: 4px;
+    transition: all 0.2s ease-in-out;
+    position: relative;
+}
+
+/* Стили для состояния checked */
+.checkboxInput:checked ~ .checkboxCustom {
+    background-color: #B48100;
+}
+
+/* Галочка через ::after */
+.checkboxInput:checked ~ .checkboxCustom::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 30%;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
+
+.checkboxText {
+    margin-top: 3px;
+}
+
+.forgotPassword {
+    text-decoration: underline;
+    color: inherit;
+}
+
+.buttonsBlock {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 13px;
+}
+
+.buttonLog {
+    width: 100%;
+    height: 44px;
+    background: #FFB800;
+    padding: 10px 20px;
+    margin: 0 auto;
+    border-radius: 8px;
+    border: none;
+    font-size: 20px;
+    color: #4B2D10;
+    font-weight: 500;
+    font-family: Alegreya Sans;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.buttonsBlock a {
+    color: #4B2D10;
+    font-size: 16px;
+    text-decoration: underline;
+}
+
+.imgPeopleLog {
+    width: 87%;
+}
+
+@media (min-width: 640px) {
+    .imgLogoLogin {
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 768px) {
+    .contentLogin {
+        gap: 50px;
+    }
+
+    .imgLogoLogin {
+        max-width: 500px;
+    }
+
+    .formLogin {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .imgLogoLogin {
+        width: 60%;
+    }
+
+    .formLogin h2 {
+        font-size: 36px;
+    }
+
+    .buttonLog {
+        width: max-content;
+        height: 50px;
+        font-size: 24px;
+        padding: 10px 64px;
+    }
+
+    .inputFormLog {
+        font-size: 24px;
+    }
+
+    .rememberBlock {
+        font-size: 18px;
+    }
+
+    .checkboxCustom {
+        width: 20px;
+        height: 20px;
+    }
+
+    .buttonsBlock a {
+        font-size: 20px;
+    }
+
+    .imgPeopleLog {
+        width: 65%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .mainLogin {
+        height: calc(100% - 50px);
+        margin: 50px auto 0 auto;
+    }
+
+    .imgLogoLogin {
+        max-width: 300px;
+    }
+
+    .formLogin {
+        width: 70%;
+    }
+
+    .imgPeopleLog {
+        width: 50%;
+    }
+}
+
+@media (min-width: 1152px) {
+    .formLogin {
+        width: 50%;
+    }
+}
+
+@media (min-width: 1280px) {
+    .imgPeopleLog {
+        width: 30%;
+    }
+}

@@ -1,0 +1,28 @@
+.dashboard {
+    position: relative;
+    width: fit-content;
+    display: flex;
+    gap: 59px;
+    padding: 16px 0;
+    border-bottom: 1px solid #BB8D6C;
+}
+
+.dashboard__info{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+    line-height: 1;
+}
+
+.dashboard__info_cnt{
+    font-size: 36px;
+    font-weight: bold;
+    color: #4B2D10;
+}
+
+.dashboard__info_title{
+    font-size: 20px;
+    font-weight: 500;
+    color: #BB8D6C;
+}

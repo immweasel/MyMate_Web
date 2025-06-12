@@ -1,0 +1,280 @@
+.mainColumn {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 25px;
+    min-height: calc(100vh - 92px);
+    /* padding-bottom: 110px; */
+    padding-bottom: 90px;
+}
+
+.mainHeader {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+}
+
+.mainHeaderSearchBlock {
+    width: 100%;
+    padding: 25px 15px 15px 15px;
+    background: #FF6B00;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0 0 24px 24px;
+}
+
+.mainHeaderSearchInput {
+    width: 100%;
+    height: 40px;
+    border-radius: 32px;
+    background: #FFF4D9;
+    border: none;
+    padding: 8px 17px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #8E3B00;
+    position: relative;
+    z-index: 0;
+    font-family: Alegreya Sans;
+}
+
+.mainHeaderSearchInput::placeholder {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #B8B8B8;
+    font-family: Alegreya Sans;
+}
+
+.mainHeaderSearchInput:focus {
+    outline: none;
+}
+
+.mainHeaderSearchIcon {
+    position: absolute;
+    z-index: 1;
+    right: 32px;
+    top: 35px;
+}
+
+.mainEmptyImage {
+    max-height: 45%;
+    /* width: 182.76px;
+    height: 328.82px; */
+}
+
+.mainHeaderSortColumn {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: left;
+    justify-content: left;
+    padding: 0 16px;
+    min-height: 44px;
+}
+.mainHeaderSortRow {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    align-items: left;
+    justify-content: space-between;
+}
+.mainHeaderSortHr {
+    border: none;
+    border-top: 1px solid #BB8D6C
+}
+
+.mainHeaderSortButton {
+    background: none;
+    border: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 11px;
+    width: max-content;
+    padding: 7px 8px 5px 8px;
+}
+
+.mainHeaderSortButtonText {
+    font-family: "Alegreya Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.2px;
+    text-align: left;
+    color: #8E3B00;
+}
+
+.mainEmptyColumn {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    width: 100%;
+    height: calc(100vh - 250px);
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.mainHeaderSortBlock {
+    background: #FFF4D9;
+    border: 3px solid #FFE8AE;    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    width: 177px;
+    z-index: 150;
+    border-radius: 8px;
+    position: absolute;
+    margin-top: -43px;
+}
+
+
+.mainHeaderFilterBlock {
+    background: #FFF4D9;
+    border: 3px solid #FFE8AE;    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    width: 177px;
+    border-radius: 8px;
+    position: absolute;
+    right: 0px;
+    z-index: 150;
+    margin-top: -43px;
+}
+
+.mainHeaderSortBlockButton {
+    background: none;
+    border: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    gap: 11px;
+    width: 100%;
+    padding: 7px 5px 5px 5px;
+    background: #FFE8AE;
+    border-radius: 7px;
+}
+
+.mainHeaderSortBlockItem {
+    display: flex;
+    flex-direction: row;
+    width: calc(100% - 16px);
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #BB8D6C;
+    padding: 0 0 8px 0;
+}
+
+.mainHeaderFilterBlockItem {
+    display: flex;
+    flex-direction: row;
+    width: calc(100% - 16px);
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #BB8D6C;
+    padding: 0 0 8px 0;
+}
+
+.noBorderBottom {
+    border-bottom: none;
+}
+
+.mainHeaderSortBlockItemText {
+    font-family: Alegreya Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.2px;
+    text-align: left;
+    color: #8E3B00;
+}
+
+.mainHeaderSortColumnTop {
+    padding-top: 43px;
+}
+
+.adCardButton {
+    background: #FF6B00;
+    border-radius: 16px;
+    border-radius: 16px;
+    width: 100%;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 11px 30px;
+    font-family: Alegreya Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 12.8px;
+    text-align: left;
+    color: #FFE4D0;
+}
+
+.adsList {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    gap: 8px;
+    padding: 0 16px 20px 16px;
+}
+
+@media (min-width: 480px) {
+    .adsList {
+        gap: 16px;
+    }
+}
+
+@media (min-width: 640px) {
+    .adsList {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (min-width: 960px) {
+    .adsList {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media (min-width: 1280px) {
+    .adsList {
+        grid-template-columns: repeat(5, 1fr);
+    }
+}
+
+@media (min-width: 1536px) {
+    .adsList {
+        grid-template-columns: repeat(6, 1fr);
+    }
+}
+
+@media (min-width: 1700px) {
+    .adsList {
+        grid-template-columns: repeat(7, 1fr);
+    }
+}
+
+@media (min-width: 1920px) {
+    .adsList {
+        grid-template-columns: repeat(8, 1fr);
+    }
+}
+
+@media (min-width: 2560px) {
+    .adsList {
+        grid-template-columns: repeat(9, 1fr);
+    }
+}
+

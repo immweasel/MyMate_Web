@@ -1,0 +1,67 @@
+.profile {
+    padding: 63px 15px 0 15px;
+    max-width: 430px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    /* background-image: url("../../assets/images/bg.png"); */
+    /* background-repeat: no-repeat; */
+}
+
+.topBgProfile {
+    position: fixed;
+    bottom: 80%;
+    left: 0;
+    width: 100%;
+    z-index: 0;
+}
+
+@media (min-width: 640px) {
+    .topBgProfile {
+        bottom: 75%;
+    }
+}
+
+@media (min-width: 768px) {
+    .topBgProfile {
+        bottom: 72%;
+    }
+}
+
+@media (min-width: 991px) {
+    .topBgProfile {
+        bottom: 70%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .topBgProfile {
+        bottom: 67%;
+    }
+}
+
+@media (min-width: 1280px) {
+    .topBgProfile {
+        bottom: 65%;
+    }
+}
+
+@media (min-width: 1536px) {
+    .topBgProfile {
+        bottom: 63%;
+    }
+}
+
+@media (min-width: 1700px) {
+    .topBgProfile {
+        bottom: 60%;
+    }
+}
+
+@media (min-width: 1920px) {
+    .topBgProfile {
+        bottom: 57%;
+    }
+}

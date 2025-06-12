@@ -1,0 +1,110 @@
+.mainHelp {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 77px 16px 100px 16px;
+}
+
+.myHelpContent {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background: #FFF4D9;
+    border-radius: 16px;
+    padding: 30px 0 0 0;
+    position: relative;
+    /*min-height: calc(100vh - 177px);*/
+    width: 398px;
+    height: 755px;
+    gap: 45px;
+}
+
+.myHelpContentHeader {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+
+.myHelpContentHeaderTitle {
+    font-family: Alegreya Sans;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 25.6px;
+    text-align: left;
+    color: rgba(75, 45, 16, 1);
+}
+
+.QR {
+    display: flex;
+    align-items: center;
+    gap: 67px;
+}
+
+.Names {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    width: 329px; 
+    height: 48px;
+    font-size: 20px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.Nams {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    width: 332px; 
+    height: 29px;
+    font-size: 24px;
+    margin: 0 auto;
+}
+
+.myHelpContentHeaderButton {
+    width: max-content;
+    height: auto;
+    padding: 8px 16px;
+    border-radius: 16px;
+    background: #FF6B00;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    font-family: Alegreya Sans;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.8px;
+    text-align: left;
+    color: #FFF4D9;
+}
+
+.myHelpEmptyColumn {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    width: 100%;
+    height: calc(100vh - 240px);
+    align-items: center;
+    justify-content: flex-end;
+}
+
+/* .myHelpEmptyImage {
+    width: 320.34px;
+    height: 300.03px;
+    margin: auto;
+    margin-top: 43px;
+} */
+
+.linkNolineCreate {
+    text-decoration: none;
+}
+
+
+

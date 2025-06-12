@@ -1,0 +1,26 @@
+.topBg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 0;
+}
+
+.topBgBlock {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    height: 53px;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    padding: 30px 0 0 16px;
+}
+
+.topBgArrow {
+    width: 26px;
+    height: 22.45px;
+}

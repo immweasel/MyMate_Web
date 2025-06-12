@@ -1,0 +1,32 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&display=swap');
+
+.balance-card{
+    width: 330px;
+    height: 394px;
+    background-color: #FFF4D9;
+    border-radius: 24px;
+    color: #4B2D10;
+    padding: 27px 34px 44px 34px;
+    font-weight: bold;
+    line-height: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    font-family: "Alegreya Sans";
+}
+
+.balance-card__title{
+    font-size: 32px;
+}
+
+.balance-card__money{
+    font-size: 96px;
+    align-self: center;
+}
+
+.balance-card__btn{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}

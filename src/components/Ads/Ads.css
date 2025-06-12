@@ -1,0 +1,31 @@
+.adsMain {
+    display: flex;
+    flex-direction: column;
+    gap: 98px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0 0 0;
+}
+
+.adsImage {
+    width: 347.51px;
+    height: 287.56px;
+}
+
+.adsColumn {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.adsEmptyText {
+    color: #8E3B00;
+    font-size: 19.27px;
+    font-weight: 700;
+    line-height: 23.12px;
+    text-align: left;
+    /* margin-top: -83px; */
+    user-select: none;
+    width: 47%;
+}

@@ -1,0 +1,10 @@
+@media screen and (min-width: 420px) {
+    .custom-input {
+        width: 220px;
+        height: 35px;
+        border: none;
+        border-bottom: 1px solid var(--black-color);
+        background: none;
+        outline: none;
+    }
+}

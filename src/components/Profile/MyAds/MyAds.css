@@ -1,0 +1,105 @@
+.mainMyAds {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 77px 16px 100px 16px;
+}
+
+.myAdsContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background: #FFF4D9;
+    border-radius: 16px;
+    padding: 25px 0;
+    position: relative;
+    min-height: calc(100vh - 170px);
+}
+
+.myAdsContentHeader {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px 24px 30px;
+}
+
+.myAdsContentHeaderTitle {
+    font-family: Alegreya Sans;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 25.6px;
+    text-align: left;
+    color: rgba(75, 45, 16, 1);
+}
+
+.myAdsContentHeaderButton {
+    width: max-content;
+    height: auto;
+    padding: 8px 16px;
+    border-radius: 16px;
+    background: #FF6B00;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    font-family: Alegreya Sans;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.8px;
+    text-align: left;
+    color: #FFF4D9;
+}
+
+.myAdsEmptyImage {
+    max-width: 600px;
+    width: 60vw;
+    height: auto;
+    margin-top: 20px;
+}
+
+.myAdsEmptyColumn {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    width: 100%;
+    height: calc(100vh - 240px);
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.myAdsEmptyTextBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 75px;
+}
+
+.myAdsEmptyText {
+    color: #8E3B00;
+    font-size: 19.27px;
+    font-weight: 700;
+    line-height: 23.12px;
+    text-align: left;
+    margin-top: -83px;
+    user-select: none;
+    width: 52%;
+}
+
+.linkNoUnderlineCreate {
+    text-decoration: none;
+}
+
+.adList {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    /* width: 100%; */
+    gap: 32px;
+    padding: 0 16px;
+}

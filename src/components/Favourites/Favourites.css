@@ -1,0 +1,42 @@
+.favouritesMain {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: calc(100vh - 92px);
+    gap: 55px;
+    align-items: left;
+    justify-content: left;
+    padding: 40px 15px 0 15px;
+}
+
+.favouritesEmptyText {
+    color: #8E3B00;
+    font-size: 19.27px;
+    font-weight: 700;
+    line-height: 23.12px;
+    text-align: left;
+    user-select: none;
+    width: 70%;
+}
+
+.favouritesEmptyImage {
+    width: 246px;
+    height: 394px;
+}
+
+.favourotesEmptyColumn {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    width: 100%;
+    height: calc(100vh - 202px);
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.favouritesColumn {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 100%;
+}

@@ -1,0 +1,101 @@
+.mainAuth {
+  height: 100vh;
+  max-width: 500px;
+  margin: 0 auto;
+  /* margin-top: 33px; */
+  padding: 33px 47px 0 47px;
+  background: #FFE8AE;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  /* justify-content: center; */
+  gap: 33px;
+}
+
+.nameAuth {
+  font-size: 36px;
+  color: #FF6B00;
+  font-weight: 700;
+  /* margin: auto auto; */
+  text-align: center;
+}
+
+.infoApp {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.infoItem {
+  color: #4B2D10;
+}
+
+.infoItem div {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 12px;
+}
+
+.infoItem span {
+  /* color: #4B2D10; */
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1;
+}
+
+.infoItem p {
+  font-size: 20px;
+}
+
+.AuthButton {
+  width: 100%;
+  max-width: 400px;
+  /* width: 331px; */
+  min-height: 60px;
+  border-radius: 8px;
+  background: #FF6B00;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  /* margin: auto auto; */
+  font-family: Alegreya Sans;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 10px;
+  text-align: center;
+  color: #FFF4D9;
+}
+
+.OpisAuth {
+  font-size: 14px;
+  font-family: Alegreya Sans;
+  margin: auto auto;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.OpisAuth a {
+  text-decoration: none;
+  color: #4B2D10;
+  font-weight: 700;
+}
+
+/* .texti {
+  display: flex;
+  align-items: center;
+} */
+
+.AuthDown {
+  width: 100%;
+  margin-top: auto;
+  margin-bottom: 34px;
+  /*padding: -20px;*/
+  /* margin-bottom: 10px; */
+}
+
+/* .Link {
+  text-decoration: none;
+} */

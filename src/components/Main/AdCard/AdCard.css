@@ -1,0 +1,91 @@
+.adCard {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+    /* justify-content: center; */
+    justify-content: space-between;
+    /* width: 195px; */
+}
+
+.adCardInfoCont {
+    width: 100%;
+}
+
+.adCardCover {
+    width: 100%;
+    height: 158px;
+    border-radius: 16px;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-start;
+    justify-content: right;
+    padding: 12px;
+    margin-bottom: 12px;
+}
+
+.adCardColumn {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: left;
+    justify-content: left;
+}
+
+.adCardTitle {
+    font-family: Alegreya Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: left;
+    color: #4B2D10;
+    /* display: -webkit-box;
+    line-clamp: 2;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis; */
+}
+
+.adCardText {
+    font-family: Alegreya Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+    text-align: left;
+    color: #4B2D10;
+    display: -webkit-box;
+    line-clamp: 2;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.adCardButton {
+    background: #FF6B00;
+    border-radius: 16px;
+    border-radius: 16px;
+    width: 100%;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 11px 30px;
+    font-family: Alegreya Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 12.8px;
+    text-align: left;
+    color: #FFE4D0;
+    cursor: pointer;
+}
+
+@media (min-width: 576px) {
+    .adCardCover {
+        height: 175px;
+    } 
+}

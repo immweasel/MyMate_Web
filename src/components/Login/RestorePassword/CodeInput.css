@@ -1,0 +1,26 @@
+.codeInputContainer {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 52px;
+}
+
+.codeInputBox {
+    width: 36px;
+    height: 55px;
+    background: none;
+    border: 2px #8E3B00 solid;
+    border-radius: 8px;
+    font-size: 18px;
+    text-align: center;
+    outline: none;
+}
+
+.codeInputDivider {
+    width: 12px;
+    background-color: transparent;
+    display: inline-block;
+    border-bottom: 3px #8E3B00 solid;
+    border-radius: 10px;
+}

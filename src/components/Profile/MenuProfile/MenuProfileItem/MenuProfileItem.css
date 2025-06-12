@@ -1,0 +1,27 @@
+.menu-item{
+    display: flex;
+    gap: 20px;
+    align-items: start;
+    text-decoration: none;
+}
+
+.menu-item__logo{
+    height: fit-content;
+    line-height: 1;
+}
+
+.menu-item__text{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.menu-item__text_title{
+    font-size: 20px;
+    color: #4B2D10;
+}
+
+.menu-item__text_condition{
+    color: #BB8D6C;
+    font-size: 16px;
+}

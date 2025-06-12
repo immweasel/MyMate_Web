@@ -1,0 +1,178 @@
+.mainProdvigate {
+
+    display: flex;
+
+    width: 100%;
+
+    align-items: center;
+
+    justify-content: center;
+
+    padding: 77px 16px 100px 16px;
+
+}
+
+
+
+.myProdvigateContent {
+
+    display: flex;
+
+    flex-direction: column;
+
+    width: 100%;
+
+    background: #FFF4D9;
+
+    border-radius: 16px;
+
+    padding: 30px 0 0 0;
+
+    position: relative;
+
+    /*min-height: calc(100vh - 177px);*/
+
+    width: 398px;
+
+    height: 755px;
+
+    gap: 9px;
+
+}
+
+
+
+.myProdvigateContentHeader {
+
+    width: 100%;
+
+    display: flex;
+
+    flex-direction: row;
+
+    align-items: center;
+
+    justify-content: center;
+
+    padding: 0 30px;
+
+}
+
+
+
+.myProdvigateContentHeaderTitle {
+
+    font-family: Alegreya Sans;
+
+    font-size: 32px;
+
+    font-weight: 700;
+
+    line-height: 25.6px;
+
+    text-align: center;
+
+    color: rgba(75, 45, 16, 1);
+
+}
+
+.myProdvigateBlocks {
+    margin-top: 2px;
+    padding-top: 2px;
+}
+
+.QR {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    margin-bottom: 15px;
+}
+
+
+.myProdvigates {
+    display: flex;
+    width: 100%;
+    background: #FFE8AE;
+    border-radius: 16px;
+    /* padding: 5px 0; */
+    /*min-height: calc(100vh - 177px);*/
+    width: 169px;
+    height: 344px;
+}
+
+
+.myProdvigates > div{
+    border: 5px solid transparent; /* Default no border */
+    cursor: pointer; /* Make it clear that the blocks are clickable */
+}
+
+.myProdvigates >div.selected{
+    border: 5px solid #FFB800; /* Add blue border when selected */
+}
+
+.myProdvigatesExpress {
+    display: flex;
+    width: 100%;
+    background: #FFE8AE;
+    border-radius: 16px;
+    /*min-height: calc(100vh - 177px);*/
+    width: 362px;
+    height: 279px;
+    padding: 9px;
+}
+
+.Photos {
+    padding: 4px;
+}
+
+.nameTarif {
+    font-size: 18px;
+}
+
+
+.skida {
+    position: absolute;
+    margin-top: 115px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: -55px;
+}
+
+.tarifElements {
+    padding: 2px;
+    margin: auto 0px;
+}
+
+.myProdvigateContentButton {
+    width: 362px; 
+    height: 36px;
+    gap: -13px;
+    border-radius: 8px;
+    background: #FF6B00;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    margin: auto auto;
+    font-family: Alegreya Sans;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 10px;
+    text-align: center;
+    color: #FFF4D9;
+
+    /* Add styles for the button */
+    background-color: #FA9F5E; /* Default grey */
+    cursor: pointer;
+
+}
+
+.myProdvigateContentButton:disabled {
+    background-color: #FA9F5E; /* Greyed out when disabled */
+    cursor: not-allowed;
+}
+
+
+.linkNolineCreate {
+    text-decoration: none !important;
+}

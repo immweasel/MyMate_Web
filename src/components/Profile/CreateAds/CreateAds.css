@@ -1,0 +1,192 @@
+.createAdsMain {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 77px 16px 110px 16px;
+}
+
+.createAdsContent {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-radius: 16px;
+    padding: 30px;
+    position: relative;
+    background: #FFF4D9;
+    gap: 56px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 99;
+}
+
+.createAdsTitle {
+    font-family: "Alegreya Sans", sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 25.6px;
+    text-align: left;
+    color: rgba(75, 45, 16, 1);
+    width: 100%;
+}
+
+.createAdsButtonSave {
+    padding: 10px 86.5px;
+    background: #FF6B00;
+    border-radius: 8px;
+    width: max-content;
+    border: none;
+    color: #FFF4D9;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.createAdsColumn {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.createAdsLilColumn {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: left;
+    justify-content: left;
+    width: 100%;
+}
+
+.createAdsSubtitle {
+    font-family: "Alegreya Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+    color: #4B2D10;
+}
+
+.createAdsInput {
+    height: 22px;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #B48100;
+    font-family: "Alegreya Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+    text-align: left;
+    color: #4B2D10;
+}
+
+.createAdsInput:focus,
+.createAdsInputLil:focus {
+    outline: none;
+}
+
+.createAdsLilLine {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.createAdsInputLil {
+    width: 118px;
+    background-color: #FFE8AE;
+    border: solid 1px #B48100;
+    border-radius: 8px;
+    height: 31px;
+    padding: 7px 6px;
+    font-family: "Alegreya Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+    text-align: left;
+    color: #4B2D10;
+}
+
+.createAdsInputLil::placeholder {
+    font-family: "Alegreya Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+    color: #BB8D6C;
+}
+
+.createAdsInputLilSymbol {
+    font-family: "Alegreya Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+    color: #BB8D6C;
+    margin-left: -15px;
+}
+
+.createAdsLilLineInput {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.createAdsGenderButton {
+    width: 80px;
+    height: 31px;
+    border: solid 1px #B48100;
+    background: #FFE8AE;
+    font-family: "Alegreya Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: center;
+    color: #4B2D10;
+    border-radius: 8px;
+}
+
+.createAdsAnimalButton {
+    width: 142.5px;
+    height: 31px;
+    border: solid 1px #B48100;
+    background: #FFE8AE;
+    font-family: "Alegreya Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: center;
+    color: #4B2D10;
+    border-radius: 8px;
+}
+
+.createAdsGenderButtonSelect {
+    background: #FF6B00;
+    border: solid 1px #8E3B00;
+    color: #FFE8AE;
+}
+
+.createAdsUplodaImageButton {
+    width: 100%;
+    background: #FF6B00;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    align-items: center;
+    justify-content: center;
+    height: 29px;
+    border-radius: 8px;
+    font-size: 16px;
+    color: #FFF4D9;
+    font-weight: 500;
+}
+
+.createAdsUplodaImageButtonHr {
+    width: 100px;
+    border: none;
+    border-top: solid 1px #FFF4D9;
+    margin-top: -2px;
+}

@@ -1,0 +1,33 @@
+.adSliderImage {
+    width: 100%;
+    border-radius: 16px;
+}
+
+.sliderItem {
+    height: 298px;;
+    padding: 0 8px;
+    overflow: hidden;
+}
+
+.sliderItemImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.sliderCounter {
+    font-family: Alegreya Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 16px;
+    text-align: left;
+    color: #000000;
+    background: #FFF4D9;
+    padding: 6px 9px;
+    width: max-content;
+    border-radius: 50px;
+    position: absolute;
+    z-index: 1;
+    right: 15px;
+    top: 399px;
+}

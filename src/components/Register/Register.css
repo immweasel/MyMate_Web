@@ -1,0 +1,164 @@
+.mainRegister {
+    position: relative;
+    max-width: 1280px;
+    margin: 33px auto;
+    padding: 0 16px;
+    background: #FFE8AE;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.iconArrow {
+    align-self: flex-start;
+    cursor: pointer;
+}
+
+.imgLogoReg {
+    width: 55%;
+    margin-bottom: 30px;
+}
+
+.formRegister {
+    width: 100%;
+    background-color: #FFF4D9;
+    border-radius: 16px;
+    padding: 20px 34px 28px 34px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.formRegister h2 {
+    color: #4B2D10;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.fieldsFormReg {
+    display: flex;
+    flex-direction: column;
+    gap: 56px;
+}
+
+.inputFormReg,
+.selectFormReg {
+    position: relative;
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-family: Alegreya Sans;
+    color: #4B2D10;
+    font-size: 20px;
+    appearance: none;
+    border-bottom: 1px #B48100 solid;
+}
+
+.selectFormReg {
+    padding-bottom: 2px;
+}
+
+.inputFormReg::placeholder,
+.selectFormReg option {
+    color: #4B2D10;
+}
+
+.inputFormReg[type="date"] {
+    appearance: none;
+    -webkit-appearance: none; /* Для Safari */
+    -moz-appearance: none; /* Для Firefox */
+    background: none;
+}
+
+.inputFormReg[type="date"]::-webkit-calendar-picker-indicator {
+    opacity: 0;
+}
+
+.inputDate {
+    color: #4B2D10;
+    font-family: inherit;
+    font-size: 20px;
+    font-weight: inherit;
+}
+
+.inputDateHidden {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    opacity: 0;
+}
+
+.selectCont {
+    position: relative;
+}
+
+.iconSelect {
+    position: absolute;
+    top: 60%;
+    transform: translateY(-50%);
+    right: 3px;
+}
+
+.contInputFieldReg {
+    position: relative;
+}
+
+.buttonReg {
+    width: 100%;
+    height: 44px;
+    background: #FFB800;
+    padding: 10px 20px;
+    margin: 0 auto;
+    border-radius: 8px;
+    border: none;
+    font-size: 20px;
+    color: #4B2D10;
+    font-weight: 500;
+    font-family: Alegreya Sans;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+@media (min-width: 768px) {
+    .imgLogoReg {
+        width: 40%;
+        margin-bottom: 50px;
+    }
+
+    .formRegister {
+        width: 90%;
+        padding: 28px 34px 34px 34px;
+    }
+
+    .formRegister h2 {
+        font-size: 36px;
+    }
+
+    .inputFormReg, .selectFormReg {
+        font-size: 24px;
+    }
+
+    .buttonReg {
+        width: max-content;
+        height: 50px;
+        font-size: 24px;
+        padding: 10px 36px;
+        margin-top: 40px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .mainRegister {
+        margin: 25px auto;
+    }
+
+    .imgLogoReg {
+        width: 300px;
+    }
+
+    .formRegister {
+        width: 70%;
+    }
+}
