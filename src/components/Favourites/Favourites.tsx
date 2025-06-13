@@ -4,7 +4,7 @@ import favouritesMan from "../../assets/images/favouritesMan.png";
 import chatsWindow from "../../assets/images/chatsWindow.svg";
 import { FavouritesInterface } from './interfaces/interfaces';
 import FavouriteItem from './FavouriteItem/FavouriteItem';
-import adAppartment1 from "../../assets/images/adAppartment1.png";
+// import adAppartment1 from "../../assets/images/adAppartment1.png";
 import Cookies from 'universal-cookie';
 import axios from 'axios';
 import { GetBackendUrl } from '../ServiceFunctions/GetBackendUrl';

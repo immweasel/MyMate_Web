@@ -11,6 +11,8 @@ import { GetBackendUrl } from '../ServiceFunctions/GetBackendUrl';
 import axios from 'axios';
 import { RefreshTokens } from '../ServiceFunctions/RefreshTokens';
 import Cookies from 'universal-cookie';
+import { Helmet } from 'react-helmet-async';
+
 
 interface SortItem {
     text: string;
@@ -161,6 +163,33 @@ export default function Main() {
     }, [sortOpen]);
 
     return (
+        <>
+        <Helmet>
+            <title>MyMate — Найди соседа по жилью</title>
+            <meta property="og:title" content="MyMate — найди соседа по интересам" />
+            <meta property="og:description" content="Сервис для поиска соседа по аренде жилья. Просматривай анкеты и находи идеального партнёра по квартире!" />
+            <meta property="og:type" content="website" />
+            <meta property="og:url" content="https://mymateweb.ru" />
+
+            {/* JSON-LD structured data */}
+            <script type="application/ld+json">
+    {`
+        {
+            "@context": "https://schema.org",
+            "@type": "WebSite",
+            "name": "MyMate",
+            "url": "https://mymateweb.ru",
+            "description": "Сервис для поиска соседей для совместной аренды квартиры",
+            "publisher": {
+            "@type": "Organization",
+            "name": "MyMate"
+        }
+        }
+    `}
+    </script>
+
+        </Helmet>
+        
         <div className='mainColumn'>
             <div className='mainHeader'>
                 <SearchBlock search={search} setSearch={setSearch} />
@@ -243,5 +272,7 @@ export default function Main() {
                 </div>
             )}
         </div>
+        </>
+        
     );
 }

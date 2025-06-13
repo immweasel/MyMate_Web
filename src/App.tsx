@@ -1,7 +1,7 @@
 import './App.css'
 import { ChatProvider } from "./components/Chat/ChatContext/ChatContext";
 import Profile from "./components/Profile/Profile";
-import profileImg from "./assets/images/profileImg.png";
+// import profileImg from "./assets/images/profileImg.png";
 import Navigation from "./components/Navigation/Navigation";
 import { BrowserRouter as Router, Route, Routes, useLocation } from 'react-router-dom';
 import Chats from "./components/Chats/Chats";
@@ -33,6 +33,7 @@ import { GetBackendUrl, GetBackendUrlWebsockets } from "./components/ServiceFunc
 import Cookies from "universal-cookie";
 import axios from "axios";
 import { RefreshTokens } from "./components/ServiceFunctions/RefreshTokens";
+import { HelmetProvider } from 'react-helmet-async';
 
 /*
 import Support from "./components/Ads/Ads";
@@ -298,12 +299,14 @@ function App() {
 
 
   return (
-    <Router>
-      {/* <Layout /> */}
-      <ChatProvider>
-        <Layout />
-      </ChatProvider>
-    </Router>
+    <HelmetProvider>
+      <Router>
+        {/* <Layout /> */}
+        <ChatProvider>
+          <Layout />  
+        </ChatProvider>
+      </Router>
+    </HelmetProvider>
   );
 }
 
